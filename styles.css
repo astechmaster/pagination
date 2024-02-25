@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  background-color: black;
+  color: white;
+  border-radius: 100px;
+  padding-right: 40px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  gap: 20px;
+}
+
+li:hover {
+  color: rgb(255, 230, 0);
+}
+
+li {
+  padding: 10px 15px;
+  border-radius: 100px;
+}
+
+li:hover {
+  background-color: rgb(255, 230, 0);
+  color: black;
+}
+
+li:last-child:hover,
+li:first-child:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  color: rgb(255, 230, 0);
+}
+
+.active {
+  background-color: rgb(255, 230, 0);
+  color: black;
+}
