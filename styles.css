@@ -23,13 +23,10 @@ ul {
   gap: 20px;
 }
 
-li:hover {
-  color: rgb(255, 230, 0);
-}
-
 li {
   padding: 10px 15px;
   border-radius: 100px;
+  transition: all 0.5s ease-in-out;
 }
 
 li:hover {
